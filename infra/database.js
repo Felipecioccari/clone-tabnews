@@ -31,7 +31,6 @@ export default {
   query,
   getNewClient,
 };
-//teste no commit
 function getSSLValues() {
   if (process.env.POSTGRES_CA) {
     return {
